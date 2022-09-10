@@ -1,0 +1,51 @@
+/* body{
+    background-color:red;
+}
+
+.banner{
+    background:red;
+    /* min-height: 200px; 
+} */
+
+.banner .row{
+    text-align: center;
+    margin-top:50px;
+}
+
+.banner h1{
+    color:white;
+}
+
+.opaque-navbar{
+    Transparent:rgba(0,0,0,0) / Translucent = (0,0,0,0.5);
+    height: 40px;
+    border-bottom: 0px;
+}
+
+.opaque-navbar.opaque{
+    background-color:black;
+    height:40px;
+}
+
+ul.dropdown-menu{
+    background-color:black;
+}
+
+ul li a{
+    font-size:11px;
+    font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    position: center;
+}
+
+.navbar-brand{
+    width:100%;
+    position: fixed;
+    transition: top 0.3s;
+    backdrop-filter: blur(15px);
+}
+
+.navbar-icons{
+    width:50%;
+    height:50%;
+}
+
