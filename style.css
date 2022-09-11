@@ -1,11 +1,4 @@
-/* body{
-    background-color:red;
-}
 
-.banner{
-    background:red;
-    /* min-height: 200px; 
-} */
 
 .banner .row{
     text-align: center;
@@ -17,6 +10,7 @@
 }
 
 .opaque-navbar{
+    
     Transparent:rgba(0,0,0,0) / Translucent = (0,0,0,0.5);
     height: 40px;
     border-bottom: 0px;
@@ -41,7 +35,8 @@ ul li a{
     width:100%;
     position: fixed;
     transition: top 0.3s;
-    backdrop-filter: blur(15px);
+  
+    
 }
 
 .navbar-icons{
@@ -49,3 +44,6 @@ ul li a{
     height:50%;
 }
 
+.title{
+    text-align:center;
+}
