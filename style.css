@@ -1,4 +1,35 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
 
+html{
+    font-size: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI", Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1568px;
+    margin: 0 auto;
+    padding: 0 35.2px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 70.4px;
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(32px);
+}
 
 .banner .row{
     text-align: center;
@@ -10,7 +41,6 @@
 }
 
 .opaque-navbar{
-    
     Transparent:rgba(0,0,0,0) / Translucent = (0,0,0,0.5);
     height: 40px;
     border-bottom: 0px;
@@ -34,9 +64,7 @@ ul li a{
 .navbar-brand{
     width:100%;
     position: fixed;
-    transition: top 0.3s;
-  
-    
+    transition: top 0.3s;  
 }
 
 .navbar-icons{
@@ -46,4 +74,87 @@ ul li a{
 
 .title{
     text-align:center;
+    padding-top:40px;
+}
+
+.title-heading{
+    font-size:45px;
+    font-weight:400;
+    line-height:1;
+    letter-spacing:-1.5;
+}
+
+.title-sub-heading{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 9.6px;
+    letter-spacing: 0.128px;
+   
+}
+
+.cta{
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.cta-link{
+    font-size:18px;
+    display: inline-block;
+}
+
+.cta-link:nth-child(2){
+    margin-left: 41.6px;
+}
+
+.title-dark{
+    color :#000;
+}
+
+.cta-link-darker{
+    color:#0070c9;
+}
+
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+
+/* iphone 13 image */
+.iphone-13{
+    background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pink-select-2021?wid=940&hei=1112&fmt=png-alpha&.v=1645572315935") ;
+    /* margin-top: 2px; */
+    /* padding-top:0px; */
+    background-repeat: no-repeat;
+    /* margin-bottom: 10; */
+    border-top: none;
+}
+
+
+/* iphone 13 pro image */
+.iphone-13-pro{
+    background-image: url("https://www.futureworldindia.in/image/cache/catalog/194253119159/iphone-13-pro-green-select-940x1112.png");
+    background-repeat: no-repeat;
+    border-top: none;
+}
+
+
+/* apple watch image  */
+.imagew{
+    background-image: url("https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP860/series7-480.png");
+    background-repeat: no-repeat;
+    border-top: none;
+    height: 900px;
+    background-size: auto 1000px ;
+    background-position: center;
+    border-bottom: 9.6px solid #ffffff;
+}
+
+.hero{
+    height: 1107.2px;
+    background-size: auto 1300px ;
+    /* padding-top:2px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 50px solid #ffffff;
+    border-bottom: 9.6px solid #ffffff;
 }
