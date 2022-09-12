@@ -84,6 +84,28 @@ ul li a{
     letter-spacing:-1.5;
 }
 
+.title-heading-imac{
+    font-size:45px;
+    color : #FFFFFF;
+    background-color: #000;
+    font-weight:400;
+    line-height:1;
+    letter-spacing:-1.5;
+    margin-left : 130px;
+    text-align: center;
+}
+
+.title-sub-heading-imac{
+    font-size: 35px;
+    color : #FFFFFF;
+    background-color: #000;
+    font-weight: 400;
+    margin-top: 9.6px;
+    letter-spacing: 0.128px;
+    margin-left : 50px;
+    text-align: right;
+}
+
 .title-sub-heading{
     font-size: 35px;
     font-weight: 400;
@@ -143,12 +165,71 @@ ul li a{
     background-image: url("https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP860/series7-480.png");
     background-repeat: no-repeat;
     border-top: none;
-    height: 900px;
+    height: 800px;
     background-size: auto 1000px ;
     background-position: center;
     border-bottom: 9.6px solid #ffffff;
 }
 
+/* macbook */
+.imagebook{
+    background-repeat: no-repeat;
+    border-top: 20px solid white;
+    background-size: auto 1000px ;
+    background-position: center;
+    border-bottom: 1px solid white;
+    margin-left :100px;
+}
+
+/* ipad */
+.imageipad{
+    background-image: url("https://www.apple.com/v/ipad-air/r/images/meta/ipad-air_overview__cahgij9otxua_og.png?202208082309");
+    background-repeat: no-repeat;
+    border-top: 190px solid black;
+    border-left : 50px solid black;
+    border-right : 40px solid black;
+    border-bottom: 66px solid black;
+    height: 600px;
+    width: 700px;
+    background-size: auto 350px ;
+    background-position: top left;
+    margin-right : 10px;
+    margin-bottom: 15px;
+}
+
+/* studio display */
+.imagestudio{
+    /* background-image: url("https://b2c-contenthub.com/wp-content/uploads/2022/03/apple-studio-display-hero.jpg?quality=50&strip=all"); */
+    background-repeat: no-repeat;
+    border-top: none;
+    padding-top: 15px;
+    background-repeat: no-repeat;
+    border-top: 20px solid white;
+    background-size: auto 1000px ;
+    background-position: center;
+    border-bottom: 1px solid white;
+    margin-left :30px;
+}
+
+/* macbook pro */
+.imagemac{
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/61086ec373551e86331910e3/0x0.jpg?format=jpg&width=1200");
+    background-repeat: no-repeat;
+    border-top: 190px solid black;
+    border-left : 50px solid black;
+    border-right : 130px solid black;
+    border-bottom: 66px solid black;
+    height: 600px;
+    width: 700px;
+    background-size: auto 350px ;
+    background-position: top left;
+    margin-right : 10px;
+    margin-bottom: 15px;
+}
+
+.borderfoot{
+    border-top: 0.1px solid #616160;
+}
 .hero{
     height: 1107.2px;
     background-size: auto 1300px ;
@@ -157,4 +238,34 @@ ul li a{
     background-repeat: no-repeat;
     border-top: 50px solid #ffffff;
     border-bottom: 9.6px solid #ffffff;
+}
+
+
+/* css footer */
+.footer{
+    background-color: #ededed;
+}
+
+
+
+.footer-title{
+    position: relative;
+    font-weight: 600;
+    margin-top: 20px;
+       
+}
+
+
+.footer_link li a{
+    margin-top:10px;
+    color: #616160;
+    font-size:14;
+}
+
+.footer ul li{
+    /* display: inline-block;
+    width: 50%;
+    margin-bottom: 12px; */
+    list-style-type: none;
+    margin: 3px;
 }
