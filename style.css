@@ -16,10 +16,12 @@ a{
 }
 
 .container{
-    max-width: 1568px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 35.2px;
-}
+    /* display: grid;  */
+    /* grid-template-columns: auto auto auto auto; */
+} 
 
 header{
     position: fixed;
@@ -137,10 +139,6 @@ ul li a{
     color:#0070c9;
 }
 
-.cta-link:hover{
-    border-bottom: 2px solid #66bbff;
-}
-
 /* iphone 13 image */
 .iphone-13{
     background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pink-select-2021?wid=940&hei=1112&fmt=png-alpha&.v=1645572315935") ;
@@ -151,7 +149,6 @@ ul li a{
     border-top: none;
 }
 
-
 /* iphone 13 pro image */
 .iphone-13-pro{
     background-image: url("https://www.futureworldindia.in/image/cache/catalog/194253119159/iphone-13-pro-green-select-940x1112.png");
@@ -159,15 +156,14 @@ ul li a{
     border-top: none;
 }
 
-
 /* apple watch image  */
 .imagew{
     background-image: url("https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP860/series7-480.png");
     background-repeat: no-repeat;
     border-top: none;
     height: 800px;
-    background-size: auto 1000px ;
-    background-position: center;
+    background-size: 50% ;
+    background-position: top center;
     border-bottom: 9.6px solid #ffffff;
 }
 
@@ -175,26 +171,40 @@ ul li a{
 .imagebook{
     background-repeat: no-repeat;
     border-top: 20px solid white;
-    background-size: auto 1000px ;
+    background-size: 100% ;
     background-position: center;
     border-bottom: 1px solid white;
-    margin-left :100px;
+    margin-left :70px;
 }
 
 /* ipad */
 .imageipad{
     background-image: url("https://www.apple.com/v/ipad-air/r/images/meta/ipad-air_overview__cahgij9otxua_og.png?202208082309");
     background-repeat: no-repeat;
-    border-top: 190px solid black;
-    border-left : 50px solid black;
-    border-right : 40px solid black;
-    border-bottom: 66px solid black;
+    border-top: 100px solid black;
+    /* border-left : 50px solid black; */
+    /* border-right : 40px solid black; */
+    /* border-bottom: 90px solid black; */
     height: 600px;
     width: 700px;
-    background-size: auto 350px ;
+    background-size: 100% ;
     background-position: top left;
     margin-right : 10px;
     margin-bottom: 15px;
+}
+
+.iPad{
+    background-color: black;
+    border-right : 300px;
+    height : 500px;
+    background-size : 500px 500px;
+}
+
+.macbook-Pro{
+    background-color: black;
+    border-right : 300px;
+    height : 500px;
+
 }
 
 /* studio display */
@@ -203,12 +213,10 @@ ul li a{
     background-repeat: no-repeat;
     border-top: none;
     padding-top: 15px;
-    background-repeat: no-repeat;
     border-top: 20px solid white;
-    background-size: auto 1000px ;
     background-position: center;
     border-bottom: 1px solid white;
-    margin-left :30px;
+    margin-right :150px;
 }
 
 /* macbook pro */
@@ -221,7 +229,7 @@ ul li a{
     border-bottom: 66px solid black;
     height: 600px;
     width: 700px;
-    background-size: auto 350px ;
+    background-size: 100% ;
     background-position: top left;
     margin-right : 10px;
     margin-bottom: 15px;
@@ -230,6 +238,7 @@ ul li a{
 .borderfoot{
     border-top: 0.1px solid #616160;
 }
+
 .hero{
     height: 1107.2px;
     background-size: auto 1300px ;
@@ -240,13 +249,17 @@ ul li a{
     border-bottom: 9.6px solid #ffffff;
 }
 
+.ac-gf-footer-locale-link{
+    text-align: right;
+    /* margin-top: 2px; */
+    /* margin-bottom: 50px; */
+
+}
 
 /* css footer */
 .footer{
     background-color: #ededed;
 }
-
-
 
 .footer-title{
     position: relative;
@@ -254,7 +267,6 @@ ul li a{
     margin-top: 20px;
        
 }
-
 
 .footer_link li a{
     margin-top:10px;
